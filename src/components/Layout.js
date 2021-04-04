@@ -5,7 +5,7 @@ import "./layout.css";
 
 const Layout = ({ children }) => (
   <>
-    <IdentityContextProvider url="https://jamstack-auth.netlify.com">
+    <IdentityContextProvider url="https://jamstack-auth-dashboard.netlify.app">
       <header>
         <Link to="/">JamStack App</Link>
       </header>
